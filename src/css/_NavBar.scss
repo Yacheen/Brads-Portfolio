@@ -1,0 +1,42 @@
+@import "./Variables";
+.nav-bar{
+    margin-bottom: 6rem;
+    .nav-bar-content {
+        height: 10vh;
+        width: 75%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .nav-bar-name {
+            cursor: pointer;
+            font-size: 4rem;
+            width: 40%;
+            white-space: nowrap;
+
+        }
+        .nav-bar-links {
+            width: 60%;
+            display: flex;
+            justify-content: space-evenly;
+            list-style-type: none;
+            
+            li {
+                
+                background-color: $boxesandtimelines;
+                color: hsl(0,0, 10%);
+                padding: 0.4rem 2rem; 
+                font-size: 1.8rem;
+                border-radius: 4px;
+                &:hover {
+                    background-color: $currentTab;
+                }
+            }
+            .toggled-button {
+                background: $currentTab;
+            }
+            
+        }
+    }
+}
+

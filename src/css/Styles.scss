@@ -1,8 +1,22 @@
+@import "./NavBar";
+@import "./Home";
+@import "./Timeline";
+@import "./Footer";
+* {
+    transition: all 0.4s ease;
+}
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background: #2b2d42;
+    color: #edf2f4;
+}
+a {
+    color: hsl(0,0%, 85%); 
+    text-decoration: none;
 }
 html {
     font-size: 62.5%;
+    font-family: "Roboto", sans-serif;
 }

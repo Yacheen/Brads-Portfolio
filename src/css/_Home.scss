@@ -1,0 +1,30 @@
+@import "./Variables";
+.hero-container {
+    min-height: 70vh;
+    
+    .hero-content {
+        padding: 6rem 4rem;
+        border-radius: 10px;
+        background: $boxesandtimelines;
+        display: flex;
+        max-width: 60%;
+        margin: 0 auto;
+        .hero-picture {
+            img {
+                height: 26rem;
+                border-radius: 16px;
+                
+            }
+        }
+        .hero-text {
+            color: hsl(0, 0%, 5%);
+            font-weight: 400;
+            font-size: 2.4rem;
+            display: flex;
+            align-items: center;
+            max-width: 50%;
+            margin: 0 auto;
+            
+        }
+    }
+}
