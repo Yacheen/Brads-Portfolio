@@ -1,0 +1,38 @@
+.flex-timeline {
+    min-height: 70vh;
+    margin-bottom: 8rem;
+    .flex-timeline-content {
+        max-width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+
+        .flex-timeline-component-big {
+            width: 100rem;
+            display: flex;
+            align-items: flex-end;
+            .flex-timeline-bridge {
+                border-bottom: 1px solid white;
+                width: 60rem;
+                display: flex;
+            }
+            .flex-timeline-image {
+                max-width: 40rem;
+                
+                img {
+                    max-height: 100%;
+                    max-width: 100%;
+                }
+            }
+            .flex-timeline-date {
+
+            }
+        }
+        .flex-timeline-component-small {
+            border-bottom: 1px solid white;
+            max-width: 20rem;
+
+        }
+
+    }
+}

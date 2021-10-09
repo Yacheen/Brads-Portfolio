@@ -22,7 +22,8 @@
             list-style-type: none;
             
             li {
-                
+                user-select:none;
+                cursor: pointer;
                 background-color: $boxesandtimelines;
                 color: hsl(0,0, 10%);
                 padding: 0.4rem 2rem; 
