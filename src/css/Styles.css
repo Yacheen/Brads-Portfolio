@@ -243,8 +243,7 @@ html {
 }
 
 .flex-timeline {
-  min-height: 70vh;
-  margin-bottom: 8rem;
+  margin-bottom: 20rem;
 }
 
 .flex-timeline .flex-timeline-content {
@@ -259,8 +258,24 @@ html {
           flex-direction: column;
 }
 
+.flex-timeline .flex-timeline-content .pillar-line {
+  position: absolute;
+  min-height: 870%;
+  width: 2px;
+  background: #e6e6e6;
+}
+
+.flex-timeline .flex-timeline-content .flex-timeline-date {
+  border-bottom: 1px solid white;
+  font-size: 1.8rem;
+  width: 6rem;
+  -webkit-transform: translate(-100%, 200%);
+          transform: translate(-100%, 200%);
+}
+
 .flex-timeline .flex-timeline-content .flex-timeline-component-big {
-  width: 100rem;
+  margin-bottom: 8rem;
+  width: 120rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -269,26 +284,66 @@ html {
           align-items: flex-end;
 }
 
-.flex-timeline .flex-timeline-content .flex-timeline-component-big .flex-timeline-bridge {
-  border-bottom: 1px solid white;
-  width: 60rem;
+.flex-timeline .flex-timeline-content .flex-timeline-component-big .flex-timeline-description {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-bottom: 1px solid white;
+  width: 60rem;
+}
+
+.flex-timeline .flex-timeline-content .flex-timeline-component-big .flex-timeline-description p {
+  margin-left: 2rem;
+  font-size: 2.4rem;
+}
+
+.flex-timeline .flex-timeline-content .flex-timeline-component-big .flex-timeline-description .double-line {
+  -webkit-transform: translateY(50%);
+          transform: translateY(50%);
 }
 
 .flex-timeline .flex-timeline-content .flex-timeline-component-big .flex-timeline-image {
   max-width: 40rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transform: translateY(50%);
+          transform: translateY(50%);
+  -webkit-box-shadow: 0 4px 8px rgba(230, 230, 230, 0.2);
+          box-shadow: 0 4px 8px rgba(230, 230, 230, 0.2);
 }
 
 .flex-timeline .flex-timeline-content .flex-timeline-component-big .flex-timeline-image img {
-  max-height: 100%;
-  max-width: 100%;
+  max-height: 24rem;
+  max-width: 40rem;
 }
 
 .flex-timeline .flex-timeline-content .flex-timeline-component-small {
   border-bottom: 1px solid white;
-  max-width: 20rem;
+  max-width: 40rem;
+  min-height: 10rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.flex-timeline .flex-timeline-content .flex-timeline-component-small p {
+  margin-left: 2rem;
+  font-size: 1.8rem;
+}
+
+.flex-timeline .flex-timeline-content .flex-timeline-component-small .double-line {
+  -webkit-transform: translateY(50%);
+          transform: translateY(50%);
 }
 
 .footer-container {

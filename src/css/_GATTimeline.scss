@@ -1,38 +1,77 @@
+
 .flex-timeline {
-    min-height: 70vh;
-    margin-bottom: 8rem;
+    
+    margin-bottom: 20rem;
     .flex-timeline-content {
         max-width: 80%;
         margin: 0 auto;
         display: flex;
         flex-direction: column;
+        .pillar-line {
+            position: absolute;
+            min-height: 870%;
+            width: 2px;
+            background: hsl(0, 0%, 90%);
+            
+        }
+        .flex-timeline-date {
+            border-bottom: 1px solid white;
+            font-size: 1.8rem;
+            width: 6rem;
+            transform: translate(-100%, 200%);
+        }
 
         .flex-timeline-component-big {
-            width: 100rem;
+            margin-bottom: 8rem;
+            width: 120rem;
             display: flex;
             align-items: flex-end;
-            .flex-timeline-bridge {
-                border-bottom: 1px solid white;
-                width: 60rem;
-                display: flex;
-            }
+            
+                .flex-timeline-description {
+                    display: flex;
+                    justify-content: center;
+                    border-bottom: 1px solid white;
+                    width: 60rem;
+                    
+                    p {
+                        margin-left: 2rem;
+                        font-size: 2.4rem;
+                    }
+                    .double-line {
+                        transform: translateY(50%);
+                    }
+                 
+                }
+              
             .flex-timeline-image {
                 max-width: 40rem;
-                
+                display:flex;
+                transform: translateY(50%);
+                box-shadow: 0 4px 8px hsla(0, 0%, 90%, 0.2);
+        
                 img {
-                    max-height: 100%;
-                    max-width: 100%;
+                    max-height: 24rem;
+                    max-width: 40rem;
                 }
             }
-            .flex-timeline-date {
-
-            }
+            
         }
+
         .flex-timeline-component-small {
             border-bottom: 1px solid white;
-            max-width: 20rem;
-
+            max-width: 40rem;
+            min-height: 10rem;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            p {
+                margin-left: 2rem;
+                font-size: 1.8rem;
+            }
+            .double-line {
+                transform: translateY(50%);
+            }
         }
-
+        
     }
 }
