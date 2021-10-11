@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import voidchampion from '../assets/images/GAT/voidjg.png';
 import electricmarksman from '../assets/images/GAT/upcomingmarksman.png';
 import upcomingnewitems from '../assets/images/GAT/honeyfruit.png';
@@ -17,6 +17,9 @@ import omnistone from '../assets/images/GAT/omnistone.png';
 import preseasondragons from '../assets/images/GAT/preseasondragons.png';
 
 export default function GATTimeline() {
+    useEffect(() => {
+        document.title = "Blizz | GAT"
+      }, [])
     
     return (
         <section className="flex-timeline">

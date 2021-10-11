@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import wrtwitchrivals from '../assets/images/esports/wrtwitchrivals.png';
 import HU from '../assets/images/esports/HU.png';
 import direwolves from '../assets/images/esports/direwolves.png';
@@ -7,6 +7,9 @@ import TSM from '../assets/images/esports/TSM.png';
 import FNC from '../assets/images/esports/FNC.png';
 
 export default function EsportsTimeline() {
+    useEffect(() => {
+        document.title = "Blizz | Esports"
+      }, [])
 
     return (
         <section className="flex-timeline">

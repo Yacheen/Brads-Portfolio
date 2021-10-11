@@ -1,7 +1,11 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import dotenv from 'dotenv'
+
 dotenv.config();
 export default function Contact() {
+    useEffect(() => {
+        document.title = "Blizz | Contact"
+      }, [])
     return (
         <section className="contact">
             <div className="contact-content" data-aos="fade-up" data-aos-duration="600">

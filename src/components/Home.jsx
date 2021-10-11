@@ -1,7 +1,12 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import brad from '../assets/images/brad.png';
 
 export default function Home() {
+
+    useEffect(() => {
+        document.title = "Blizz | Home"
+      }, [])
+      
     return (
         <section className="hero-container">
             <div className="hero-content">
@@ -9,10 +14,10 @@ export default function Home() {
                     <img src={brad} alt="akshan" />
                 </div>
                 <div className="hero-text">
-                <p>
+                <p><span>
                     Welcome to my site! I'm Brad, more commonly known 
-                    as Blizz online. I'm a game designer on Riot Games' Teamfight Tactics.
-                    I previously used to be on the Game Analysis Team at Riot,
+                    as Blizz online.</span><br/> <br/> I'm a game designer at Riot Games, currently working on Teamfight Tactics. 
+                    I previously used to be on the Game Analysis Team,
                     working mainly on League of Legends and some on Wild Rift, 
                     and before that I used to work in the League esports scene as a player, analyst, and more. <br/> <br/>
                     If you want to learn about some of the work I've done in the past,
