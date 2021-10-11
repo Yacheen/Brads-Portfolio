@@ -11,10 +11,7 @@ export default function Footer() {
                     <i class="fab fa-twitter"></i>
                     <p>Twitter</p>
                 </div>
-                <div className="footer-link">
-                    <i class="fas fa-envelope"></i>
-                    <p>Email</p>
-                </div>
+                
                 <div className="footer-link">
                     <i class="fab fa-linkedin"></i>
                     <p>LinkedIn</p>

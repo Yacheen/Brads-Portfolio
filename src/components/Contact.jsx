@@ -1,11 +1,12 @@
 import React from 'react'
-
+import dotenv from 'dotenv'
+dotenv.config();
 export default function Contact() {
     return (
         <section className="contact">
             <div className="contact-content" data-aos="fade-up" data-aos-duration="600">
             <h1>Contact Me</h1>
-                <form className="contact-form" action="https://formsubmit.co/blizzlolwebsite@gmail.com" method="POST">
+                <form className="contact-form" action={`https://formsubmit.co/${process.env.REACT_APP_EMAIL}`} method="POST">
                     <input className="name-input" type="text" name="name" placeholder="Name" required />
                     <input type="hidden" name="_subject" value="Email from Portfolio" />
                     <input type="hidden" name="_next" value="http://localhost:3000/Thankyou"/>
