@@ -8,7 +8,7 @@ export default function Home() {
       }, [])
       
     return (
-        <section className="hero-container">
+        <section className="hero-container" data-aos="zoom-in" data-aos-duration="800">
             <div className="hero-content">
                 <div className="hero-picture"> 
                     <img src={brad} alt="akshan" />

@@ -14,7 +14,7 @@ export default function NavBar() {
 
     return (
         <Router>
-            <section className="nav-bar">
+            <section className="nav-bar" data-aos="zoom-in" data-aos-duration="1000">
                 <div className="nav-bar-content">
                     <Link to="/"><div className="nav-bar-name" onClick={() => setCurrentTab(0)}>Brad "Blizz" Dallaire</div></Link>
                         
