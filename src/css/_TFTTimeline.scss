@@ -1,0 +1,13 @@
+.TFT {
+    min-height: 70vh;
+    .TFT-content {
+        
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        margin: 0 auto;
+        h1 {
+            font-size: 5rem;
+        }
+    }
+}

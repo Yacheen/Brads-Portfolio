@@ -8,6 +8,7 @@ import EsportsTimeline from './EsportsTimeline';
 
 export default function NavBar() {
     const [currentTab, setCurrentTab] = useState(0);
+    
 
     return (
         <Router>
@@ -17,10 +18,10 @@ export default function NavBar() {
                         
                     <ul className="nav-bar-links">
                         <Link to="/"><li  className={currentTab === 0 ? "toggled-button" : "none"} onClick={() => setCurrentTab(0)}>Home</li></Link>
-                        <Link to="/TFT"><li className={currentTab === 1 ? "toggled-button" : "none"}  onClick={() => setCurrentTab(1)}>TFT</li></Link>
-                        <Link to="/GAT"><li className={currentTab === 2 ? "toggled-button" : "none"}  onClick={() => setCurrentTab(2)}>GAT</li></Link>
-                        <Link to="/Esports"><li className={currentTab === 3 ? "toggled-button" : "none"}  onClick={() => setCurrentTab(3)}>Esports</li></Link>
-                        <li>Contact</li>
+                        <Link to="/TFT"><li className={currentTab === 1 ? "toggled-button" : "none"} onClick={() => setCurrentTab(1)}>TFT</li></Link>
+                        <Link to="/GAT"><li className={currentTab === 2 ? "toggled-button" : "none"} onClick={() => setCurrentTab(2)}>GAT</li></Link>
+                        <Link to="/Esports"><li className={currentTab === 3 ? "toggled-button" : "none"} onClick={() => setCurrentTab(3)}>Esports</li></Link>
+                        <Link to="/Contact"><li className={currentTab === 4 ? "toggled-button" : "none"} onClick={() => setCurrentTab(4)}>Contact</li></Link>
                     </ul>
                 </div>
             </section>

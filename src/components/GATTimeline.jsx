@@ -17,6 +17,7 @@ import omnistone from '../assets/images/GAT/omnistone.png';
 import preseasondragons from '../assets/images/GAT/preseasondragons.png';
 
 export default function GATTimeline() {
+    
     return (
         <section className="flex-timeline">
             <div className="flex-timeline-content">
@@ -24,7 +25,7 @@ export default function GATTimeline() {
                 <div className="flex-timeline-date">
                     2022
                 </div>
-                <div className="flex-timeline-component-big"> 
+                <div className="flex-timeline-component-big" data-aos="zoom-in-right" data-aos-offset="75" data-aos-duration="1000"> 
                         <div className="flex-timeline-description">
                             <p className="double-line">Upcoming: Overwhelming new jungler that<br/>should fill a void in all your hearts</p>
                         </div>
@@ -35,7 +36,7 @@ export default function GATTimeline() {
                     </div>
                 </div>
 
-                <div className="flex-timeline-component-big"> 
+                <div className="flex-timeline-component-big" data-aos="zoom-in-right" data-aos-offset="75" data-aos-duration="1000"> 
                         <div className="flex-timeline-description">
                             <p>Upcoming: "Electrifying Marksman"</p>
                         </div>
@@ -49,7 +50,7 @@ export default function GATTimeline() {
                     2021
                 </div>
 
-                <div className="flex-timeline-component-big"> 
+                <div className="flex-timeline-component-big" data-aos="zoom-in-right" data-aos-offset="75" data-aos-duration="1000"> 
                         <div className="flex-timeline-description">
                             <p>Wild Rift: Upcoming new items</p>
                         </div>
@@ -59,19 +60,19 @@ export default function GATTimeline() {
                     </div>
                 </div>
 
-                <div className="flex-timeline-component-small">
+                <div className="flex-timeline-component-small" data-aos="zoom-in-right" data-aos-offset="75" data-aos-duration="1000">
                     <div className="flex-timeline-description">
                         <p>Wild Rift: Upcoming new champs</p>
                     </div>
                 </div>
 
-                <div className="flex-timeline-component-small">
+                <div className="flex-timeline-component-small" data-aos="zoom-in-right" data-aos-offset="75" data-aos-duration="1000">
                     <div className="flex-timeline-description">
                         <p>Upcoming Rengar changes</p>
                     </div>
                 </div>
 
-                <div className="flex-timeline-component-big"> 
+                <div className="flex-timeline-component-big" data-aos="zoom-in-right" data-aos-offset="75" data-aos-duration="1000"> 
                         <div className="flex-timeline-description">
                             <p className="double-line">Preseason 2022 Hextech/Chemtech<br/>Dragon Combat Quirks</p>
                         </div>
@@ -81,31 +82,31 @@ export default function GATTimeline() {
                     </div>
                 </div>
 
-                <div className="flex-timeline-component-small">
+                <div className="flex-timeline-component-small" data-aos="zoom-in-right" data-aos-offset="75" data-aos-duration="1000">
                     <div className="flex-timeline-description">
                         <p className="double-line">Preseason 2022 Hextech/Chemtech Map State Terrain</p>
                     </div>
                 </div>
 
-                <div className="flex-timeline-component-small">
+                <div className="flex-timeline-component-small" data-aos="zoom-in-right" data-aos-offset="75" data-aos-duration="1000">
                     <div className="flex-timeline-description">
                         <p>Worlds Jungle Assassins buffs</p>
                     </div>
                 </div>
 
-                <div className="flex-timeline-component-small">
+                <div className="flex-timeline-component-small" data-aos="zoom-in-right" data-aos-offset="75" data-aos-duration="1000">
                     <div className="flex-timeline-description">
                         <p>Smite Burst Healing nerf</p>
                     </div>
                 </div>
 
-                <div className="flex-timeline-component-small">
+                <div className="flex-timeline-component-small" data-aos="zoom-in-right" data-aos-offset="75" data-aos-duration="1000">
                     <div className="flex-timeline-description">
                         <p>Wild Rift: Akshan, Brand, Nunu, Thresh</p>
                     </div>
                 </div>
 
-                <div className="flex-timeline-component-big"> 
+                <div className="flex-timeline-component-big" data-aos="zoom-in-right" data-aos-offset="75" data-aos-duration="1000"> 
                         <div className="flex-timeline-description">
                             <p>Wild Rift: New Marksmen items</p>
                         </div>
@@ -115,37 +116,37 @@ export default function GATTimeline() {
                     </div>
                 </div>
 
-                <div className="flex-timeline-component-small">
+                <div className="flex-timeline-component-small" data-aos="zoom-in-right" data-aos-offset="75" data-aos-duration="1000">
                     <div className="flex-timeline-description">
                         <p>Wild Rift: Xin Zhao and Wukong parity with PC</p>
                     </div>
                 </div>
 
-                <div className="flex-timeline-component-small">
+                <div className="flex-timeline-component-small" data-aos="zoom-in-right" data-aos-offset="75" data-aos-duration="1000">
                     <div className="flex-timeline-description">
                         <p className="double-line">Wild Rift: Phase Rush, Font of Life, and minor rune update</p>
                     </div>
                 </div>
 
-                <div className="flex-timeline-component-small">
+                <div className="flex-timeline-component-small" data-aos="zoom-in-right" data-aos-offset="75" data-aos-duration="1000">
                     <div className="flex-timeline-description">
                         <p>Wild Rift: Lucian, Senna</p>
                     </div>
                 </div>
 
-                <div className="flex-timeline-component-small">
+                <div className="flex-timeline-component-small" data-aos="zoom-in-right" data-aos-offset="75" data-aos-duration="1000">
                     <div className="flex-timeline-description">
                         <p>Wild Rift: Fighter Item Update</p>
                     </div>
                 </div>
 
-                <div className="flex-timeline-component-small">
+                <div className="flex-timeline-component-small" data-aos="zoom-in-right" data-aos-offset="75" data-aos-duration="1000">
                     <div className="flex-timeline-description">
                         <p>Wild Rift: Kha’zix, Rammus, Rengar, Renekton</p>
                     </div>
                 </div>
 
-                <div className="flex-timeline-component-big"> 
+                <div className="flex-timeline-component-big" data-aos="zoom-in-right" data-aos-offset="75" data-aos-duration="1000"> 
                         <div className="flex-timeline-description">
                             <p>Akshan</p>
                         </div>
@@ -155,7 +156,7 @@ export default function GATTimeline() {
                     </div>
                 </div>
 
-                <div className="flex-timeline-component-big"> 
+                <div className="flex-timeline-component-big" data-aos="zoom-in-right" data-aos-offset="75" data-aos-duration="1000"> 
                         <div className="flex-timeline-description">
                             <p>Viego</p>
                         </div>
@@ -169,7 +170,7 @@ export default function GATTimeline() {
                     2020
                 </div>
 
-                <div className="flex-timeline-component-big"> 
+                <div className="flex-timeline-component-big" data-aos="zoom-in-right" data-aos-offset="75" data-aos-duration="1000"> 
                         <div className="flex-timeline-description">
                             <p>Rell</p>
                         </div>
@@ -179,13 +180,13 @@ export default function GATTimeline() {
                     </div>
                 </div>
 
-                <div className="flex-timeline-component-small">
+                <div className="flex-timeline-component-small" data-aos="zoom-in-right" data-aos-offset="75" data-aos-duration="1000">
                     <div className="flex-timeline-description">
                         <p>AP Twitch</p>
                     </div>
                 </div>
 
-                <div className="flex-timeline-component-big"> 
+                <div className="flex-timeline-component-big" data-aos="zoom-in-right" data-aos-offset="75" data-aos-duration="1000"> 
                         <div className="flex-timeline-description">
                             <p>Preseason 2021 Marksmen Item Update</p>
                         </div>
@@ -195,13 +196,13 @@ export default function GATTimeline() {
                     </div>
                 </div>
 
-                <div className="flex-timeline-component-small">
+                <div className="flex-timeline-component-small" data-aos="zoom-in-right" data-aos-offset="75" data-aos-duration="1000">
                     <div className="flex-timeline-description">
                         <p>Unreleased Pyke changes</p>
                     </div>
                 </div>
 
-                <div className="flex-timeline-component-big"> 
+                <div className="flex-timeline-component-big" data-aos="zoom-in-right" data-aos-offset="75" data-aos-duration="1000"> 
                         <div className="flex-timeline-description">
                             <p>Samira</p>
                         </div>
@@ -211,7 +212,7 @@ export default function GATTimeline() {
                     </div>
                 </div>
 
-                <div className="flex-timeline-component-big"> 
+                <div className="flex-timeline-component-big" data-aos="zoom-in-right" data-aos-offset="75" data-aos-duration="1000"> 
                         <div className="flex-timeline-description">
                             <p className="double-line">Pro Play Matrix (predicts what champions will be played in pro based off data)</p>
                         </div>
@@ -221,54 +222,54 @@ export default function GATTimeline() {
                     </div>
                 </div>
 
-                <div className="flex-timeline-component-small">
+                <div className="flex-timeline-component-small" data-aos="zoom-in-right" data-aos-offset="75" data-aos-duration="1000">
                     <div className="flex-timeline-description">
                         <p>Ghost extension buffs</p>
                     </div>
                 </div>
 
-                <div className="flex-timeline-component-small">
+                <div className="flex-timeline-component-small" data-aos="zoom-in-right" data-aos-offset="75" data-aos-duration="1000">
                     <div className="flex-timeline-description">
                         <p>Unreleased Summoner Spells</p>
                     </div>
                 </div>
 
 
-                <div className="flex-timeline-component-small">
+                <div className="flex-timeline-component-small" data-aos="zoom-in-right" data-aos-offset="75" data-aos-duration="1000">
                     <div className="flex-timeline-description">
                         <p>Unreleased Sivir changes</p>
                     </div>
                 </div>
 
 
-                <div className="flex-timeline-component-small">
+                <div className="flex-timeline-component-small" data-aos="zoom-in-right" data-aos-offset="75" data-aos-duration="1000">
                     <div className="flex-timeline-description">
                         <p>Marksmen class buffs</p>
                     </div>
                 </div>
 
 
-                <div className="flex-timeline-component-small">
+                <div className="flex-timeline-component-small" data-aos="zoom-in-right" data-aos-offset="75" data-aos-duration="1000">
                     <div className="flex-timeline-description">
                         <p>Unreleased Nasus changes</p>
                     </div>
                 </div>
 
 
-                <div className="flex-timeline-component-small">
+                <div className="flex-timeline-component-small" data-aos="zoom-in-right" data-aos-offset="75" data-aos-duration="1000">
                     <div className="flex-timeline-description">
                         <p className="double-line">Funnel investigation and nerf (Monster Hunter debuff changes)</p>
                     </div>
                 </div>
 
 
-                <div className="flex-timeline-component-small">
+                <div className="flex-timeline-component-small" data-aos="zoom-in-right" data-aos-offset="75" data-aos-duration="1000">
                     <div className="flex-timeline-description">
                         <p>Soraka top nerfs/changes</p>
                     </div>
                 </div>
 
-                <div className="flex-timeline-component-big"> 
+                <div className="flex-timeline-component-big" data-aos="zoom-in-right" data-aos-offset="75" data-aos-duration="1000"> 
                         <div className="flex-timeline-description">
                             <p className="double-line">Wild Rift: Design Risk Matrix (predicts risk of changes to champion design for mobile release)</p>
                         </div>
@@ -278,7 +279,7 @@ export default function GATTimeline() {
                     </div>
                 </div>
 
-                <div className="flex-timeline-component-big"> 
+                <div className="flex-timeline-component-big" data-aos="zoom-in-right" data-aos-offset="75" data-aos-duration="1000"> 
                         <div className="flex-timeline-description">
                             <p className="double-line">Wild Rift: General Balance changes (now to end of GAT work)</p>
                         </div>
@@ -288,7 +289,7 @@ export default function GATTimeline() {
                     </div>
                 </div>
 
-                <div className="flex-timeline-component-small">
+                <div className="flex-timeline-component-small" data-aos="zoom-in-right" data-aos-offset="75" data-aos-duration="1000">
                     <div className="flex-timeline-description">
                         <p className="double-line">Senna AD vs Support balance levers (soul drop rate)</p>
                     </div>
@@ -298,7 +299,7 @@ export default function GATTimeline() {
                     2019
                 </div>
 
-                <div className="flex-timeline-component-big"> 
+                <div className="flex-timeline-component-big" data-aos="zoom-in-right" data-aos-offset="75" data-aos-duration="1000"> 
                         <div className="flex-timeline-description">
                             <p>Senna</p>
                         </div>
@@ -308,7 +309,7 @@ export default function GATTimeline() {
                     </div>
                 </div>
 
-                <div className="flex-timeline-component-big"> 
+                <div className="flex-timeline-component-big" data-aos="zoom-in-right" data-aos-offset="75" data-aos-duration="1000"> 
                         <div className="flex-timeline-description">
                             <p>All-Stars 1v1 Game Mode</p>
                         </div>
@@ -318,9 +319,9 @@ export default function GATTimeline() {
                     </div>
                 </div>
 
-                <div className="flex-timeline-component-big"> 
+                <div className="flex-timeline-component-big" data-aos="zoom-in-right" data-aos-offset="75" data-aos-duration="1000"> 
                         <div className="flex-timeline-description">
-                            <p>Omnistone</p>
+                            <p>Prototype: Omnistone</p>
                         </div>
                     
                     <div className="flex-timeline-image">
@@ -328,19 +329,19 @@ export default function GATTimeline() {
                     </div>
                 </div>
 
-                <div className="flex-timeline-component-small">
+                <div className="flex-timeline-component-small" data-aos="zoom-in-right"  data-aos-duration="1000" data-aos-offset="75">
                     <div className="flex-timeline-description">
                         <p>Rift Herald respawn changes</p>
                     </div>
                 </div>
 
-                <div className="flex-timeline-component-small">
+                <div className="flex-timeline-component-small" data-aos="zoom-in-right"  data-aos-duration="1000" data-aos-offset="75">
                     <div className="flex-timeline-description">
                         <p>Aftershock and Conqueror Changes</p>
                     </div>
                 </div>
 
-                <div className="flex-timeline-component-small">
+                <div className="flex-timeline-component-small" data-aos="zoom-in-right"  data-aos-duration="1000" data-aos-offset="75">
                     <div className="flex-timeline-description">
                         <p>Akali targeted R1 change</p>
                     </div>

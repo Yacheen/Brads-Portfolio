@@ -1,6 +1,4 @@
 * {
-  -webkit-transition: all 0.4s ease;
-  transition: all 0.4s ease;
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
@@ -69,6 +67,7 @@ html {
   color: #1a1a1a;
   padding: 0.4rem 2rem;
   font-size: 1.8rem;
+  font-weight: bold;
   border-radius: 4px;
 }
 
@@ -81,37 +80,43 @@ html {
 }
 
 .hero-container {
-  min-height: 70vh;
+  min-height: 60vh;
+  margin-bottom: 8rem;
 }
 
 .hero-container .hero-content {
-  padding: 6rem 4rem;
+  padding: 4rem 4rem;
   border-radius: 10px;
   background: #d2d8da;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  max-width: 60%;
-  margin: 0 auto;
-}
-
-.hero-container .hero-content .hero-picture img {
-  height: 26rem;
-  border-radius: 16px;
-}
-
-.hero-container .hero-content .hero-text {
-  color: #0d0d0d;
-  font-weight: 400;
-  font-size: 2.4rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  max-width: 50%;
+  max-width: 80%;
   margin: 0 auto;
+}
+
+.hero-container .hero-content .hero-picture {
+  margin-right: 4rem;
+}
+
+.hero-container .hero-content .hero-picture img {
+  height: 26rem;
+  border-radius: 10px;
+}
+
+.hero-container .hero-content .hero-text {
+  color: #0d0d0d;
+  font-weight: 400;
+  font-size: 2.2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .timeline {
@@ -247,7 +252,8 @@ html {
 }
 
 .flex-timeline .flex-timeline-content {
-  max-width: 80%;
+  position: relative;
+  max-width: 60%;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -260,7 +266,7 @@ html {
 
 .flex-timeline .flex-timeline-content .pillar-line {
   position: absolute;
-  min-height: 870%;
+  height: calc(100% + 10rem);
   width: 2px;
   background: #e6e6e6;
 }
@@ -282,15 +288,13 @@ html {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
+  min-height: 16rem;
 }
 
 .flex-timeline .flex-timeline-content .flex-timeline-component-big .flex-timeline-description {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   border-bottom: 1px solid white;
   width: 60rem;
 }
@@ -344,6 +348,25 @@ html {
 .flex-timeline .flex-timeline-content .flex-timeline-component-small .double-line {
   -webkit-transform: translateY(50%);
           transform: translateY(50%);
+}
+
+.TFT {
+  min-height: 70vh;
+}
+
+.TFT .TFT-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.TFT .TFT-content h1 {
+  font-size: 5rem;
 }
 
 .footer-container {
