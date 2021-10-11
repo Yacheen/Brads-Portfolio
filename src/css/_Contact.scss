@@ -1,0 +1,56 @@
+@import "./Variables";
+.contact {
+    min-height: 70vh;
+    .contact-content {
+        color: hsl(0,0%, 10%);
+        width: 75rem;
+        margin: 0 auto;
+        padding: 2rem;
+        background: $boxesandtimelines;
+        border-radius: 4px;
+        h1 {
+            text-align: center;
+            font-size: 3.2rem;
+            margin-bottom: 2rem;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+
+            .name-input {
+                width: 20rem;
+                margin-bottom: 2rem;
+                padding: 0.6rem 0.6rem;
+            }
+            .email-input {
+                width: 30rem;
+                margin-bottom: 2rem;
+                padding: 0.6rem 0.6rem;
+            }
+            .message-input {
+                height: 8rem;
+                padding-top: 0.6rem;
+                padding-bottom: 4.6rem;
+                padding-left: 0.6rem;
+                width: 60rem;
+                resize: none;
+                margin-bottom: 2rem;
+            }
+            .submit-button {
+                border: none;
+                cursor: pointer;
+                max-width: 8rem;
+                font-size: 1.8rem;
+                padding: 1rem 0.8rem;
+                transition: all ease 0.3s;
+                background: hsl(235, 21%, 21%);
+                color: hsl(0, 0%, 90%);
+                border-radius: 4px;
+                &:hover {
+                    background: hsl(235, 21%, 31%);
+                    
+                }
+            }
+        }
+    }
+}

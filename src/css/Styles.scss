@@ -18,9 +18,11 @@ html {
     font-size: 62.5%;
     font-family: "Roboto", sans-serif;
 }
+@import "./Contact";
 @import "./NavBar";
 @import "./Home";
 @import "./EsportsTimeline";
 @import "./GATTimeline";
 @import "./TFTTimeline";
+@import "./Thankyou";
 @import "./Footer";

@@ -20,6 +20,74 @@ html {
   font-family: "Roboto", sans-serif;
 }
 
+.contact {
+  min-height: 70vh;
+}
+
+.contact .contact-content {
+  color: #1a1a1a;
+  width: 75rem;
+  margin: 0 auto;
+  padding: 2rem;
+  background: #d2d8da;
+  border-radius: 4px;
+}
+
+.contact .contact-content h1 {
+  text-align: center;
+  font-size: 3.2rem;
+  margin-bottom: 2rem;
+}
+
+.contact .contact-content .contact-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contact .contact-content .contact-form .name-input {
+  width: 20rem;
+  margin-bottom: 2rem;
+  padding: 0.6rem 0.6rem;
+}
+
+.contact .contact-content .contact-form .email-input {
+  width: 30rem;
+  margin-bottom: 2rem;
+  padding: 0.6rem 0.6rem;
+}
+
+.contact .contact-content .contact-form .message-input {
+  height: 8rem;
+  padding-top: 0.6rem;
+  padding-bottom: 4.6rem;
+  padding-left: 0.6rem;
+  width: 60rem;
+  resize: none;
+  margin-bottom: 2rem;
+}
+
+.contact .contact-content .contact-form .submit-button {
+  border: none;
+  cursor: pointer;
+  max-width: 8rem;
+  font-size: 1.8rem;
+  padding: 1rem 0.8rem;
+  -webkit-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+  background: #2a2c41;
+  color: #e6e6e6;
+  border-radius: 4px;
+}
+
+.contact .contact-content .contact-form .submit-button:hover {
+  background: #3e4160;
+}
+
 .nav-bar {
   margin-bottom: 6rem;
 }
@@ -367,6 +435,38 @@ html {
 
 .TFT .TFT-content h1 {
   font-size: 5rem;
+}
+
+.thankyou {
+  min-height: 70vh;
+}
+
+.thankyou .thankyou-content {
+  color: #1a1a1a;
+  max-width: 30%;
+  margin: 0 auto;
+  padding: 2rem;
+  background: #d2d8da;
+  border-radius: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.thankyou .thankyou-content h2 {
+  font-size: 4rem;
+  margin-bottom: 6rem;
+}
+
+.thankyou .thankyou-content h3 {
+  font-size: 2.2rem;
 }
 
 .footer-container {

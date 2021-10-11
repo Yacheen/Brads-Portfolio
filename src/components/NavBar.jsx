@@ -4,6 +4,8 @@ import Home from './Home';
 import TFTTimeline from './TFTTimeline';
 import GATTimeline from './GATTimeline';
 import EsportsTimeline from './EsportsTimeline';
+import Contact from './Contact';
+import Thankyou from './Thankyou';
 
 
 export default function NavBar() {
@@ -14,7 +16,7 @@ export default function NavBar() {
         <Router>
             <section className="nav-bar">
                 <div className="nav-bar-content">
-                    <Link to="/"><div className="nav-bar-name" onClick={() => setCurrentTab(0)}>first lastname</div></Link>
+                    <Link to="/"><div className="nav-bar-name" onClick={() => setCurrentTab(0)}>Brad "Blizz" Dallaire</div></Link>
                         
                     <ul className="nav-bar-links">
                         <Link to="/"><li  className={currentTab === 0 ? "toggled-button" : "none"} onClick={() => setCurrentTab(0)}>Home</li></Link>
@@ -30,6 +32,8 @@ export default function NavBar() {
                 <Route exact path="/TFT" component={TFTTimeline} />
                 <Route exact path="/GAT" component={GATTimeline} />
                 <Route exact path="/Esports" component={EsportsTimeline} />
+                <Route exact path="/Contact" component={Contact}/>
+                <Route exact path="/Thankyou" component={Thankyou}/>
                 
             </Switch>
         </Router>
