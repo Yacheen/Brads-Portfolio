@@ -405,9 +405,6 @@ html {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 .flex-timeline .flex-timeline-content .flex-timeline-component-small p {

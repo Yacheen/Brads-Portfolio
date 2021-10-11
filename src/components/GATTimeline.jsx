@@ -199,11 +199,6 @@ export default function GATTimeline() {
                     </div>
                 </div>
 
-                <div className="flex-timeline-component-small" data-aos="zoom-in-right" data-aos-offset="75" data-aos-duration="1000">
-                    <div className="flex-timeline-description">
-                        <p>Unreleased Pyke changes</p>
-                    </div>
-                </div>
 
                 <div className="flex-timeline-component-big" data-aos="zoom-in-right" data-aos-offset="75" data-aos-duration="1000"> 
                         <div className="flex-timeline-description">
@@ -227,20 +222,7 @@ export default function GATTimeline() {
 
                 <div className="flex-timeline-component-small" data-aos="zoom-in-right" data-aos-offset="75" data-aos-duration="1000">
                     <div className="flex-timeline-description">
-                        <p>Ghost extension buffs</p>
-                    </div>
-                </div>
-
-                <div className="flex-timeline-component-small" data-aos="zoom-in-right" data-aos-offset="75" data-aos-duration="1000">
-                    <div className="flex-timeline-description">
-                        <p>Unreleased Summoner Spells</p>
-                    </div>
-                </div>
-
-
-                <div className="flex-timeline-component-small" data-aos="zoom-in-right" data-aos-offset="75" data-aos-duration="1000">
-                    <div className="flex-timeline-description">
-                        <p>Unreleased Sivir changes</p>
+                        <p>Summoner Spell work (Ghost extension)</p>
                     </div>
                 </div>
 
@@ -248,13 +230,6 @@ export default function GATTimeline() {
                 <div className="flex-timeline-component-small" data-aos="zoom-in-right" data-aos-offset="75" data-aos-duration="1000">
                     <div className="flex-timeline-description">
                         <p>Marksmen class buffs</p>
-                    </div>
-                </div>
-
-
-                <div className="flex-timeline-component-small" data-aos="zoom-in-right" data-aos-offset="75" data-aos-duration="1000">
-                    <div className="flex-timeline-description">
-                        <p>Unreleased Nasus changes</p>
                     </div>
                 </div>
 
