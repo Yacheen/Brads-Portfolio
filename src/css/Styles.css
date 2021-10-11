@@ -133,7 +133,9 @@ html {
   cursor: pointer;
   background-color: #d2d8da;
   color: #1a1a1a;
-  padding: 0.4rem 2rem;
+  min-width: 8rem;
+  text-align: center;
+  padding: 0.6rem 1.8rem;
   font-size: 1.8rem;
   font-weight: bold;
   border-radius: 4px;
@@ -171,7 +173,7 @@ html {
 }
 
 .hero-container .hero-content .hero-picture img {
-  height: 26rem;
+  height: 40rem;
   border-radius: 10px;
 }
 
@@ -499,7 +501,7 @@ html {
   cursor: pointer;
   border: 1px solid white;
   height: 3rem;
-  padding: 0.6rem 1.4rem;
+  padding: 2rem 1.6rem;
 }
 
 .footer-container .footer-content .footer-link:hover {

@@ -26,7 +26,9 @@
                 cursor: pointer;
                 background-color: $boxesandtimelines;
                 color: hsl(0,0, 10%);
-                padding: 0.4rem 2rem; 
+                min-width: 8rem;
+                text-align: center;
+                padding: 0.6rem 1.8rem;
                 font-size: 1.8rem;
                 font-weight: bold;
                 border-radius: 4px;
