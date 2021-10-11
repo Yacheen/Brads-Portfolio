@@ -87,7 +87,7 @@ export default function GATTimeline() {
 
                 <div className="flex-timeline-component-small" data-aos="zoom-in-right" data-aos-offset="75" data-aos-duration="1000">
                     <div className="flex-timeline-description">
-                        <p className="double-line">Preseason 2022 Hextech/Chemtech Map State Terrain</p>
+                        <p className="break-line">Preseason 2022 Hextech/Chemtech<br/>Map State Terrain</p>
                     </div>
                 </div>
 
@@ -236,7 +236,7 @@ export default function GATTimeline() {
 
                 <div className="flex-timeline-component-small" data-aos="zoom-in-right" data-aos-offset="75" data-aos-duration="1000">
                     <div className="flex-timeline-description">
-                        <p className="double-line">Funnel investigation and nerf (Monster Hunter debuff changes)</p>
+                        <p className="break-line">Funnel investigation and nerf<br/>(Monster Hunter debuff changes)</p>
                     </div>
                 </div>
 
@@ -259,7 +259,7 @@ export default function GATTimeline() {
 
                 <div className="flex-timeline-component-big" data-aos="zoom-in-right" data-aos-offset="75" data-aos-duration="1000"> 
                         <div className="flex-timeline-description">
-                            <p className="double-line">Wild Rift: General Balance changes (now to end of GAT work)</p>
+                            <p className="break-line">Wild Rift: General Balance changes<br/>(now to end of GAT work)</p>
                         </div>
                     
                     <div className="flex-timeline-image">
@@ -269,7 +269,7 @@ export default function GATTimeline() {
 
                 <div className="flex-timeline-component-small" data-aos="zoom-in-right" data-aos-offset="75" data-aos-duration="1000">
                     <div className="flex-timeline-description">
-                        <p className="double-line">Senna AD vs Support balance levers (soul drop rate)</p>
+                        <p className="break-line">Senna AD vs Support balance levers<br/>(soul drop rate)</p>
                     </div>
                 </div>
 
