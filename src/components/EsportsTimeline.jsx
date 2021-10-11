@@ -22,7 +22,7 @@ export default function EsportsTimeline() {
 
                 <div className="flex-timeline-component-big" data-aos="zoom-in-right" data-aos-offset="150" data-aos-duration="1000"> 
                         <div className="flex-timeline-description">
-                            <p>Wild Rift Twich Rivals Winner</p>
+                            <p>Wild Rift Twich Rivals</p>
                         </div>
                     
 
@@ -43,7 +43,7 @@ export default function EsportsTimeline() {
 
                 <div className="flex-timeline-component-big" data-aos="zoom-in-right" data-aos-offset="150" data-aos-duration="1000"> 
                         <div className="flex-timeline-description">
-                            <p className="double-line">Harrisburg University Varsity League of Legends team - Bot Lane</p>
+                            <p className="break-line">Harrisburg University League of Legends team <br/>Bot Laner</p>
                         </div>
                     
 
@@ -79,7 +79,7 @@ export default function EsportsTimeline() {
 
                 <div className="flex-timeline-component-big" data-aos="zoom-in-right" data-aos-offset="150" data-aos-duration="1000"> 
                         <div className="flex-timeline-description">
-                            <p className="double-line">Founder of DNA, Amateur Esports Organization - Coach, Bot, and Top Lane</p>
+                            <p className="break-line">Founder of DNA, Amateur Esports Organization<br/>Owner, Coach, Bot, and Top Lane</p>
                         </div>
                     
 

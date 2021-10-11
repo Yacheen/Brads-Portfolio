@@ -212,7 +212,7 @@ export default function GATTimeline() {
 
                 <div className="flex-timeline-component-big" data-aos="zoom-in-right" data-aos-offset="75" data-aos-duration="1000"> 
                         <div className="flex-timeline-description">
-                            <p className="double-line">Pro Play Matrix (predicts what champions will be played in pro based off data)</p>
+                            <p className="break-line">Pro Play Matrix<br/>(predicts pro play picks based off data)</p>
                         </div>
                     
                     <div className="flex-timeline-image">
@@ -249,7 +249,7 @@ export default function GATTimeline() {
 
                 <div className="flex-timeline-component-big" data-aos="zoom-in-right" data-aos-offset="75" data-aos-duration="1000"> 
                         <div className="flex-timeline-description">
-                            <p className="double-line">Wild Rift: Design Risk Matrix (predicts risk of changes to champion design for mobile release)</p>
+                            <p className="break-line">Wild Rift: Design Risk Matrix<br/>(calculates risk for mobile design)</p>
                         </div>
                     
                     <div className="flex-timeline-image">

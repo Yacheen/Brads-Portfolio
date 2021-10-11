@@ -417,6 +417,11 @@ html {
           transform: translateY(50%);
 }
 
+.break-line {
+  -webkit-transform: translateY(50%);
+          transform: translateY(50%);
+}
+
 .TFT {
   min-height: 70vh;
 }
