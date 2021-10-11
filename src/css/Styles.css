@@ -150,8 +150,8 @@ html {
 }
 
 .hero-container {
-  min-height: 60vh;
-  margin-bottom: 8rem;
+  min-height: 70vh;
+  margin-bottom: 4rem;
 }
 
 .hero-container .hero-content {
@@ -476,7 +476,7 @@ html {
 .footer-container {
   position: relative;
   bottom: 0%;
-  min-height: 10vh;
+  min-height: 8vh;
 }
 
 .footer-container .footer-content {

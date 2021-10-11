@@ -1,7 +1,7 @@
 import React from 'react'
 export default function Footer() {
     return (
-        <footer className="footer-container" data-aos="zoom-in" data-aos-duration="1000">
+        <footer className="footer-container">
             <div className="footer-content">
                 <a href="https://www.twitch.tv/blizz_lol" target="_blank" rel="noreferrer">
                     <div className="footer-link">

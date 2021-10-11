@@ -49,10 +49,6 @@ export default function GATTimeline() {
                     </div>
                 </div>
 
-                <div className="flex-timeline-date">
-                    2021
-                </div>
-
                 <div className="flex-timeline-component-big" data-aos="zoom-in-right" data-aos-offset="75" data-aos-duration="1000"> 
                         <div className="flex-timeline-description">
                             <p>Wild Rift: Upcoming new items</p>
@@ -74,6 +70,13 @@ export default function GATTimeline() {
                         <p>Upcoming Rengar changes</p>
                     </div>
                 </div>
+
+
+                <div className="flex-timeline-date">
+                    2021
+                </div>
+
+            
 
                 <div className="flex-timeline-component-big" data-aos="zoom-in-right" data-aos-offset="75" data-aos-duration="1000"> 
                         <div className="flex-timeline-description">
