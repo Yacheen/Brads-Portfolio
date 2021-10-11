@@ -13,7 +13,7 @@ export default function Contact() {
                 <form className="contact-form" action={`https://formsubmit.co/${process.env.REACT_APP_EMAIL}`} method="POST">
                     <input className="name-input" type="text" name="name" placeholder="Name" required />
                     <input type="hidden" name="_subject" value="Email from Portfolio" />
-                    <input type="hidden" name="_next" value="http://localhost:3000/Thankyou"/>
+                    <input type="hidden" name="_next" value="https://blizz.lol/Thankyou"/>
                     <input className="email-input" type="email" name="email" placeholder="Email" required />
                     <textarea className="message-input" type="text" name="message" placeholder="Message"  required />
                     
