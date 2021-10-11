@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react'
-import brad from '../assets/images/brad.png';
+import bradnothd from '../assets/images/bradnothd.png';
 
 export default function Home() {
 
@@ -11,7 +11,7 @@ export default function Home() {
         <section className="hero-container" data-aos="zoom-in" data-aos-duration="800">
             <div className="hero-content">
                 <div className="hero-picture"> 
-                    <img src={brad} alt="akshan" />
+                    <img src={bradnothd} alt="akshan" />
                 </div>
                 <div className="hero-text">
                 <p><span>
