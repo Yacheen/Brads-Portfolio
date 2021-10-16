@@ -1,0 +1,184 @@
+@media screen and (max-width: 960px) {
+    //nav bar
+    .nav-bar {
+        .nav-bar-content {
+            flex-direction: column;
+            .nav-bar-name {
+                border: 1px solid white;
+                margin-top: 1.2rem;
+                padding: 0.8rem;
+                border-radius: 4px;
+                box-shadow: 0px 4px 8px rgba(235, 233, 233, 0.6);
+                font-size: 3.28rem;
+                width: 100%;
+                margin-bottom: 1.2rem;
+
+            }
+            .nav-bar-links {
+                width: 100%;
+                justify-content: space-between;
+                .nav-link {
+                    max-width: 6rem;
+                    min-width: unset;
+                    font-size: 1.4rem;
+                    
+                }
+                .home-button  {
+                    display: none;
+                }
+            }
+        }
+    }
+    //homepage
+    .hero-container {
+        min-height: 10vh;
+        .hero-content {
+            flex-direction: column;
+            align-items: center;
+            padding: 1.8rem 1.8rem;
+            
+            .hero-picture {
+                margin-right: unset;
+                margin-bottom: 2rem;
+                img {
+                    height: 26rem;
+                }
+
+            }
+            .hero-text {
+                text-align: center;
+                font-size: 1.8rem;
+
+            }
+
+        }
+    }
+    //footer
+    .footer-container {
+        min-height: 12vh;
+        
+        .footer-content {
+            max-width: 80%;
+            margin: 0 auto;
+            justify-content: space-between;
+            .footer-link {
+                display: flex;
+                padding: 1.2rem 1rem;
+                justify-content: center;
+                max-width: 8.6rem;
+                font-size: 1.4rem;
+            }
+
+        }
+    }
+    //tft section
+    .TFT {
+        .TFT-content {
+            h1 {
+                font-size: 4rem;
+            }
+        }
+    }
+    //gat section
+    .flex-timeline {
+        .flex-timeline-content {
+            
+            
+            .pillar-line {
+                height: calc(100% + 10rem);
+
+            }
+            .flex-timeline-date {
+                width: 3.8rem;
+                font-size: 1.4rem;
+                
+            }
+            .flex-timeline-component-big {
+                flex-direction: column;
+                align-items: flex-start;
+                width: 100%;
+                
+                
+                .flex-timeline-description {
+                    width: 26rem;
+                    justify-content: center;
+                    p {
+                        text-align: center;
+                        font-size: 1.8rem;
+                    }
+                    .double-line {
+                        transform: translateY(0%);
+                        
+                    }
+                    .break-line {
+                        transform: translateY(0%);
+                    }
+    
+                }
+
+                .flex-timeline-image {
+                    transform: translateY(0%);
+                    padding: 1rem;
+                    max-width: auto;
+                    img {
+                        max-width: 24rem;
+                        
+                    }
+                }
+                
+
+            }
+            .flex-timeline-component-small {
+                margin-bottom: 4rem;
+                .flex-timeline-description {
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    p {
+                        text-align: center;
+                    }
+                    .break-line {
+                        transform: translateY(0%);
+                    }
+                    .double-line {
+                        transform: translateY(0%);
+                    }
+                }
+
+            }
+            
+            
+
+        }
+    }
+    //contact section
+    .contact {
+        
+        .contact-content {
+            width: 30rem;
+            h1 {
+                font-size: 2.8rem;
+            }
+            .contact-form {
+                .name-input {
+                    width: 14rem;
+                }
+                .email-input {
+                    width: 22rem;
+                }
+                .message-input {
+                    width: 26rem;
+                    height: 16rem;
+
+                }
+            }
+        }
+    }
+    //thankyou section
+    .thankyou {
+        .thankyou-content {
+            max-width: 80%;
+        }
+    }
+
+}
