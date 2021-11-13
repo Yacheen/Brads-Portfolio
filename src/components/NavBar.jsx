@@ -6,7 +6,6 @@ import GATTimeline from './GATTimeline';
 import EsportsTimeline from './EsportsTimeline';
 import Contact from './Contact';
 import Thankyou from './Thankyou';
-//buttons
 
 export default function NavBar() {
     const [currentTab, setCurrentTab] = useState(0);
@@ -18,11 +17,11 @@ export default function NavBar() {
                     <Link to="/"><div className="nav-bar-name" onClick={() => setCurrentTab(0)}>Brad "Blizz" Dallaire</div></Link>
                         
                     <ul className="nav-bar-links">
-                        <div className="home-button"><Link to="/"><li className={`button-settings nav-link home-link ${currentTab === 0 ? "home-toggled" : "none"} `} onClick={() => setCurrentTab(0)}></li></Link></div>
-                        <Link to="/TFT"><li className={`button-settings nav-link tft-link ${currentTab === 1 ? "tft-toggled" : "none"}`} onClick={() => setCurrentTab(1)}></li></Link>
-                        <Link to="/GAT"><li className={`button-settings nav-link gat-link ${currentTab === 2 ? "gat-toggled" : "none"}`} onClick={() => setCurrentTab(2)}></li></Link>
-                        <Link to="/Esports"><li className={`button-settings nav-link esports-link ${currentTab === 3 ? "esports-toggled" : "none"}`} onClick={() => setCurrentTab(3)}></li></Link>
-                        <Link to="/Contact"><li className={`button-settings nav-link contact-link ${currentTab === 4 ? "contact-toggled" : "none"}`} onClick={() => setCurrentTab(4)}></li></Link>
+                        <div className="home-button"><Link to="/"><li className={`button-settings nav-link home-link ${currentTab === 0 ? "toggled" : "none"} `} onClick={() => setCurrentTab(0)}></li></Link></div>
+                        <Link to="/TFT"><li className={`button-settings nav-link tft-link ${currentTab === 1 ? "toggled" : "none"}`} onClick={() => setCurrentTab(1)}></li></Link>
+                        <Link to="/GAT"><li className={`button-settings nav-link gat-link ${currentTab === 2 ? "toggled" : "none"}`} onClick={() => setCurrentTab(2)}></li></Link>
+                        <Link to="/Esports"><li className={`button-settings nav-link esports-link ${currentTab === 3 ? "toggled" : "none"}`} onClick={() => setCurrentTab(3)}></li></Link>
+                        <Link to="/Contact"><li className={`button-settings nav-link contact-link ${currentTab === 4 ? "toggled" : "none"}`} onClick={() => setCurrentTab(4)}></li></Link>
                     </ul>
                 </div>
             </section>

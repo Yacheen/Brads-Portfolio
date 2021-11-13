@@ -28,6 +28,11 @@
                 width: 12vw;
                 height: 10vh;
                 margin-right: 12px;
+                background-size: contain;
+                background-repeat: no-repeat;
+                &:hover {
+                    filter: grayscale(100%);
+                }
                
             }
             
@@ -35,77 +40,25 @@
     }
 }
 //links 
-
+.toggled {
+        filter: grayscale(80%);
+}
 .home-link {
     background-image: url('../assets/images/navbarButtons/akshanhome.png');
-    &:hover {
-        background: url('../assets/images/navbarButtons/akshanhome2.png');
-        background-size: contain;
-    background-repeat: no-repeat;
-    }
 }
-.home-toggled {
-    background: url('../assets/images/navbarButtons/akshanhome2.png');
-}
-
-
 
 .tft-link {
     background: url('../assets/images/navbarButtons/ViegoTFT.png');
-    &:hover {
-        background: url('../assets/images/navbarButtons/ViegoTFT2.png');
-        background-size: contain;
-    background-repeat: no-repeat;
-    }
+
 }
-.tft-toggled {
-    background: url('../assets/images/navbarButtons/ViegoTFT2.png');
-}
-
-
-
 .gat-link {
     background: url('../assets/images/navbarButtons/RellGAT.png');
-    &:hover {
-        background: url('../assets/images/navbarButtons/RellGAT2.png');
-        background-size: contain;
-    background-repeat: no-repeat;
-    }
 }
-.gat-toggled {
-    background: url('../assets/images/navbarButtons/RellGAT2.png');
-}
-
-
 
 .esports-link {
     background: url('../assets/images/navbarButtons/SamiraEsports.png');
-    &:hover {
-        background: url('../assets/images/navbarButtons/SamiraEsports2.png');
-        background-size: contain;
-        background-repeat: no-repeat;
-    }
 }
-.esports-toggled {
-    background: url('../assets/images/navbarButtons/SamiraEsports2.png');
-}
-
-
 
 .contact-link {
     background: url('../assets/images/navbarButtons/SennaContact.png');
-    &:hover {
-        background: url('../assets/images/navbarButtons/SennaContact2.png');
-        background-size: contain;
-        background-repeat: no-repeat;
-    }
-}
-.contact-toggled {
-    background: url('../assets/images/navbarButtons/SennaContact2.png');
-}
-
-
-.button-settings {
-    background-size: contain;
-    background-repeat: no-repeat;
 }
