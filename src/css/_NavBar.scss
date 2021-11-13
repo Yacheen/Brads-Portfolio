@@ -16,33 +16,96 @@
 
         }
         .nav-bar-links {
+            position: relative;
             width: 60%;
             display: flex;
             justify-content: space-evenly;
             list-style-type: none;
+            transform: translateY(20%);
             
             .nav-link {
-                display: flex;
-                justify-content: center;
-                user-select:none;
                 cursor: pointer;
-                background-color: $boxesandtimelines;
-                color: hsl(0,0, 10%);
-                min-width: 8rem;
-                text-align: center;
-                padding: 0.6rem 1.8rem;
-                font-size: 1.8rem;
-                font-weight: bold;
-                border-radius: 4px;
-                &:hover {
-                    background-color: $currentTab;
-                }
-            }
-            .toggled-button {
-                background: $currentTab;
+                width: 12vw;
+                height: 10vh;
+                margin-right: 12px;
+               
             }
             
         }
     }
 }
+//links 
 
+.home-link {
+    background-image: url('../assets/images/navbarButtons/akshanhome.png');
+    &:hover {
+        background: url('../assets/images/navbarButtons/akshanhome2.png');
+        background-size: contain;
+    background-repeat: no-repeat;
+    }
+}
+.home-toggled {
+    background: url('../assets/images/navbarButtons/akshanhome2.png');
+}
+
+
+
+.tft-link {
+    background: url('../assets/images/navbarButtons/ViegoTFT.png');
+    &:hover {
+        background: url('../assets/images/navbarButtons/ViegoTFT2.png');
+        background-size: contain;
+    background-repeat: no-repeat;
+    }
+}
+.tft-toggled {
+    background: url('../assets/images/navbarButtons/ViegoTFT2.png');
+}
+
+
+
+.gat-link {
+    background: url('../assets/images/navbarButtons/RellGAT.png');
+    &:hover {
+        background: url('../assets/images/navbarButtons/RellGAT2.png');
+        background-size: contain;
+    background-repeat: no-repeat;
+    }
+}
+.gat-toggled {
+    background: url('../assets/images/navbarButtons/RellGAT2.png');
+}
+
+
+
+.esports-link {
+    background: url('../assets/images/navbarButtons/SamiraEsports.png');
+    &:hover {
+        background: url('../assets/images/navbarButtons/SamiraEsports2.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
+.esports-toggled {
+    background: url('../assets/images/navbarButtons/SamiraEsports2.png');
+}
+
+
+
+.contact-link {
+    background: url('../assets/images/navbarButtons/SennaContact.png');
+    &:hover {
+        background: url('../assets/images/navbarButtons/SennaContact2.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
+.contact-toggled {
+    background: url('../assets/images/navbarButtons/SennaContact2.png');
+}
+
+
+.button-settings {
+    background-size: contain;
+    background-repeat: no-repeat;
+}

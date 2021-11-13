@@ -115,6 +115,7 @@ html {
 }
 
 .nav-bar .nav-bar-content .nav-bar-links {
+  position: relative;
   width: 60%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -123,36 +124,90 @@ html {
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   list-style-type: none;
+  -webkit-transform: translateY(20%);
+          transform: translateY(20%);
 }
 
 .nav-bar .nav-bar-content .nav-bar-links .nav-link {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
   cursor: pointer;
-  background-color: #d2d8da;
-  color: #1a1a1a;
-  min-width: 8rem;
-  text-align: center;
-  padding: 0.6rem 1.8rem;
-  font-size: 1.8rem;
-  font-weight: bold;
-  border-radius: 4px;
+  width: 12vw;
+  height: 10vh;
+  margin-right: 12px;
 }
 
-.nav-bar .nav-bar-content .nav-bar-links .nav-link:hover {
-  background-color: #8e9aaf;
+.home-link {
+  background-image: url("../assets/images/navbarButtons/akshanhome.png");
 }
 
-.nav-bar .nav-bar-content .nav-bar-links .toggled-button {
-  background: #8e9aaf;
+.home-link:hover {
+  background: url("../assets/images/navbarButtons/akshanhome2.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.home-toggled {
+  background: url("../assets/images/navbarButtons/akshanhome2.png");
+}
+
+.tft-link {
+  background: url("../assets/images/navbarButtons/ViegoTFT.png");
+}
+
+.tft-link:hover {
+  background: url("../assets/images/navbarButtons/ViegoTFT2.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.tft-toggled {
+  background: url("../assets/images/navbarButtons/ViegoTFT2.png");
+}
+
+.gat-link {
+  background: url("../assets/images/navbarButtons/RellGAT.png");
+}
+
+.gat-link:hover {
+  background: url("../assets/images/navbarButtons/RellGAT2.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.gat-toggled {
+  background: url("../assets/images/navbarButtons/RellGAT2.png");
+}
+
+.esports-link {
+  background: url("../assets/images/navbarButtons/SamiraEsports.png");
+}
+
+.esports-link:hover {
+  background: url("../assets/images/navbarButtons/SamiraEsports2.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.esports-toggled {
+  background: url("../assets/images/navbarButtons/SamiraEsports2.png");
+}
+
+.contact-link {
+  background: url("../assets/images/navbarButtons/SennaContact.png");
+}
+
+.contact-link:hover {
+  background: url("../assets/images/navbarButtons/SennaContact2.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.contact-toggled {
+  background: url("../assets/images/navbarButtons/SennaContact2.png");
+}
+
+.button-settings {
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .hero-container {
@@ -393,7 +448,39 @@ html {
   margin-right: 0.4rem;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1500px) {
+  .nav-bar .nav-bar-content .nav-bar-name {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .nav-bar .nav-bar-content .nav-bar-name {
+    font-size: 2.6rem;
+  }
+  .nav-bar .nav-bar-content .nav-bar-links .nav-link {
+    margin-right: 0;
+    height: 30px;
+  }
+  .nav-bar .home-link {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .nav-bar .nav-bar-content .nav-bar-name {
+    font-size: 2.4rem;
+  }
+  .nav-bar .nav-bar-content .nav-bar-links {
+    -webkit-transform: translate(0%, 0%);
+            transform: translate(0%, 0%);
+  }
+  .nav-bar .nav-bar-content .nav-bar-links .nav-link {
+    max-width: 8rem;
+  }
+}
+
+@media screen and (max-width: 1100px) {
   .nav-bar .nav-bar-content {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -416,14 +503,11 @@ html {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    -webkit-transform: translate(0%, 0%);
+            transform: translate(0%, 0%);
   }
   .nav-bar .nav-bar-content .nav-bar-links .nav-link {
-    max-width: 6rem;
-    min-width: unset;
-    font-size: 1.4rem;
-  }
-  .nav-bar .nav-bar-content .nav-bar-links .home-button {
-    display: none;
+    width: 10rem;
   }
   .hero-container {
     min-height: 10vh;
