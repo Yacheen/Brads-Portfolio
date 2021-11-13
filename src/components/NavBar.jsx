@@ -7,16 +7,6 @@ import EsportsTimeline from './EsportsTimeline';
 import Contact from './Contact';
 import Thankyou from './Thankyou';
 //buttons
-import akshanhome from '../assets/images/navbarButtons/akshanhome.png';
-import akshanhome2 from '../assets/images/navbarButtons/akshanhome2.png';
-import RellGAT from '../assets/images/navbarButtons/RellGAT.png';
-import RellGAT2 from '../assets/images/navbarButtons/RellGAT2.png';
-import SamiraEsports from '../assets/images/navbarButtons/SamiraEsports.png';
-import SamiraEsports2 from '../assets/images/navbarButtons/SamiraEsports2.png';
-import SennaContact from '../assets/images/navbarButtons/SennaContact.png';
-import SennaContact2 from '../assets/images/navbarButtons/SennaContact2.png';
-import ViegoTFT from '../assets/images/navbarButtons/ViegoTFT.png';
-import ViegoTFT2 from '../assets/images/navbarButtons/ViegoTFT2.png';
 
 export default function NavBar() {
     const [currentTab, setCurrentTab] = useState(0);
