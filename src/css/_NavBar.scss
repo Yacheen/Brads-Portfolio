@@ -1,5 +1,5 @@
 @import "./Variables";
-.nav-bar{
+.nav-bar {
     margin-bottom: 6rem;
     .nav-bar-content {
         height: 10vh;
@@ -13,7 +13,6 @@
             font-size: 4rem;
             width: 40%;
             white-space: nowrap;
-
         }
         .nav-bar-links {
             position: relative;
@@ -22,7 +21,7 @@
             justify-content: space-evenly;
             list-style-type: none;
             transform: translateY(20%);
-            
+
             .nav-link {
                 cursor: pointer;
                 width: 12vw;
@@ -33,32 +32,29 @@
                 &:hover {
                     filter: grayscale(100%);
                 }
-               
             }
-            
         }
     }
 }
-//links 
+//links
 .toggled {
-        filter: grayscale(80%);
+    filter: grayscale(80%);
 }
 .home-link {
-    background-image: url('../assets/images/navbarButtons/akshanhome.png');
+    background-image: url("../assets/images/navbarButtons/akshanhome.webp");
 }
 
 .tft-link {
-    background: url('../assets/images/navbarButtons/ViegoTFT.png');
-
+    background: url("../assets/images/navbarButtons/ViegoTFT.webp");
 }
 .gat-link {
-    background: url('../assets/images/navbarButtons/RellGAT.png');
+    background: url("../assets/images/navbarButtons/RellGAT.webp");
 }
 
 .esports-link {
-    background: url('../assets/images/navbarButtons/SamiraEsports.png');
+    background: url("../assets/images/navbarButtons/SamiraEsports.webp");
 }
 
 .contact-link {
-    background: url('../assets/images/navbarButtons/SennaContact.png');
+    background: url("../assets/images/navbarButtons/SennaContact.webp");
 }
