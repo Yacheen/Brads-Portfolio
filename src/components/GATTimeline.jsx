@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import voidchampion from "../assets/images/GAT/voidjg.webp";
-import electricmarksman from "../assets/images/GAT/upcomingmarksman.webp";
-import upcomingnewitems from "../assets/images/GAT/honeyfruit.webp";
+//import electricmarksman from "../assets/images/GAT/upcomingmarksman.webp";
+//import upcomingnewitems from "../assets/images/GAT/honeyfruit.webp";
 import newmarksmanitems from "../assets/images/GAT/wildriftmarksmanitems.webp";
 import akshan from "../assets/images/GAT/akshan.webp";
 import viego from "../assets/images/GAT/viego.webp";
@@ -15,6 +15,10 @@ import senna from "../assets/images/GAT/senna.webp";
 import allstars from "../assets/images/GAT/allstars.webp";
 import omnistone from "../assets/images/GAT/omnistone.webp";
 import preseasondragons from "../assets/images/GAT/preseasondragons.webp";
+import seedjar from "../assets/images/GAT/Seedjar.webp";
+import zeri from "../assets/images/GAT/Zeri.webp";
+import firststrike from "../assets/images/GAT/firststrike.webp";
+import lethaltempo from "../assets/images/GAT/lethaltempo.webp";
 
 export default function GATTimeline() {
     useEffect(() => {
@@ -52,11 +56,11 @@ export default function GATTimeline() {
                     data-aos-duration="1000"
                 >
                     <div className="flex-timeline-description">
-                        <p>Upcoming: "Electrifying Marksman"</p>
+                        <p>Zeri</p>
                     </div>
 
                     <div className="flex-timeline-image">
-                        <img src={electricmarksman} alt="" />
+                        <img src={zeri} alt="" />
                     </div>
                 </div>
 
@@ -67,11 +71,11 @@ export default function GATTimeline() {
                     data-aos-duration="1000"
                 >
                     <div className="flex-timeline-description">
-                        <p>Wild Rift: Upcoming new items</p>
+                        <p>Wild Rift: Hextech Megadrive and Ixtali Seedjar</p>
                     </div>
 
                     <div className="flex-timeline-image">
-                        <img src={upcomingnewitems} alt="" />
+                        <img src={seedjar} alt="" />
                     </div>
                 </div>
 
@@ -82,7 +86,7 @@ export default function GATTimeline() {
                     data-aos-duration="1000"
                 >
                     <div className="flex-timeline-description">
-                        <p>Wild Rift: Upcoming new champs</p>
+                        <p className="double-line">Wild Rift: Kayle, Morgana, Dr. Mundo, Jayce, Veigar, Caitlyn, Karma, Sett, Shen, Yuumi</p>
                     </div>
                 </div>
 
@@ -98,6 +102,41 @@ export default function GATTimeline() {
                 </div>
 
                 <div className="flex-timeline-date">2021</div>
+
+                <div
+                    className="flex-timeline-component-big"
+                    data-aos="zoom-in-right"
+                    data-aos-offset="75"
+                    data-aos-duration="1000"
+                >
+                    <div className="flex-timeline-description">
+                        <p>
+                            Preseason 2022 Lethal Tempo
+                        </p>
+                    </div>
+
+                    <div className="flex-timeline-image">
+                        <img src={lethaltempo} alt="" />
+                        
+                    </div>
+                </div>
+
+                <div
+                    className="flex-timeline-component-big"
+                    data-aos="zoom-in-right"
+                    data-aos-offset="75"
+                    data-aos-duration="1000"
+                >
+                    <div className="flex-timeline-description">
+                        <p>
+                            Preseason 2022 First Strike
+                        </p>
+                    </div>
+
+                    <div className="flex-timeline-image">
+                        <img src={firststrike} alt="" />
+                    </div>
+                </div>
 
                 <div
                     className="flex-timeline-component-big"
